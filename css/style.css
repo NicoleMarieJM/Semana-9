@@ -1,0 +1,29 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.column-1, .column-2, .column-3 {
+  flex: 1;
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+#pt {
+	font-family: 'Quicksand', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 2em;
+}
+
+.row div img {
+  border-radius: 50%;
+  width: 150px;
+}
